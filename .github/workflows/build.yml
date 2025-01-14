@@ -3,7 +3,7 @@ name: Build
 
 env:
   Branch: ${{github.ref_name}}
-  Platform: Win32
+  Platform: x86
   Configuration: Release
   Artifacts: build/Release/
   Solution: ${{github.event.repository.name}}.sln
